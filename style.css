@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+body{
+  background-color: rgb(255, 255, 255);
+}
+nav a {
+  text-decoration: none;
+  color: #BE4A5C;
+  font-size: 20px;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  background-color: #F2F0D0;
+  padding: 1.5% 10%;
+}
+nav li{
+  display: inline-block;
+  padding-left: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.logo{
+  font-family: 'Ubuntu', sans-serif;
+}
+.Intro{
+  padding: 7% 10%;
+  text-align: center;
+  background-color: #F2F0D0;
+}
+.Intro h3{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #BE4A5C;
+}
+.Intro p{
+  text-align: center;
+  padding: 20px 20%;
+  font-size: 24px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.Intro button{
+  padding: 20px 70px;
+  color: #ffffff;
+  background-color: #025574;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.Project{
+  padding: 3% 10%;
+}
+.Project h2{
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #BE4A5C;
+}
+.proImg{
+  display: flex;
+  gap: 3%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+.Img{
+  width: 50%;
+  height: 400px;
+  background-image: url("Img/Image20.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 590px 400px;
+}
+.pic1{
+  background-image: url("Img/Frame\ 3.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 590px 400px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.pic2{
+  background-image: url("Img/Frame\ 2.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 590px 400px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.Intro button:hover {
+  background-color: #0684b3;
+  color: #ffffff;
+}
+nav a:hover{
+  color: #025574;
+}
+.About{
+  padding: 3% 10%;
+  background-color: #F2F0D0;
+}
+.About h2{
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #BE4A5C;
+}
+.Abt{
+  display: flex;
+  gap: 3%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+.Abt-cont{
+  width: 50%;
+  height: 400px;
+}
+.pic{
+  background-image: url("Img/sudhanshu.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 590px 400px;
+}
+.Abt-cont p{
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 24px;
+  padding-bottom: 5%;
+}
+.Abt-cont button{
+  padding: 20px 70px;
+  color: #ffffff;
+  background-color: #025574;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.Abt-cont{
+  padding-bottom: 5%;
+}
+.Abt-cont button:hover {
+  background-color: #0684b3;
+  color: #ffffff;
+}
+.Contact{
+  padding: 3% 10%;
+}
+.Contact h2{
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #BE4A5C;
+  padding-bottom: 5%;
+}
+.Contact i{
+  color: #BE4A5C;
+}
+.Cont{
+  display: flex;
+  justify-content: space-around;
+}
+.Icn1{
+  background-color: #ffffff;
+  width: 30%;
+  text-align: center;
+  padding: 5% 0;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.Icn2{
+  background-color: #ffffff;
+  width: 30%;
+  text-align: center;
+  padding: 5% 0;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.Icn3{
+  background-color: #ffffff;
+  width: 30%;
+  text-align: center;
+  padding: 5% 0;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.Cont h3{
+  font-family: 'Ubuntu', sans-serif;
+  color: #BE4A5C;
+  padding-top: 3%;
+}
+.Cont div:hover{
+  background-color: #F2F0D0;
+}
+.Footer{
+  padding: 3% 10%;
+  background-color: #F2F0D0;
+  text-align: center;
+}
+.Footer h4{
+  font-family: 'Ubuntu', sans-serif;
+  color: #BE4A5C;
+}
+
+.First{
+  margin: 3% 10%;
+}
+.Img1{
+  background-image: url("Img/Img1.png");
+  width: 100%;
+  height: 600px;
+  background-size: 1290px 600px;
+  background-repeat: no-repeat;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+
+  .Intro{
+    padding-bottom: 10%;
+  }
+  .Project h2{
+    text-align: center;
+    padding: 5% 0;
+  }
+  .proImg{
+    display: block;
+    padding-top: 3%;
+    padding-bottom: 5%;
+  }
+  .Img{
+    width: 100%;
+    height: 400px;
+  }
+  .pic1{
+    background-image: url("Img/Mobile1.png");
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-size: 400px 400px;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      margin-bottom: 5%;
+  }
+  .pic2{
+    background-image: url("Img/Mobile2.png");
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-size: 400px 400px;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .About h2{
+    text-align: center;
+    padding: 5% 0;
+  }
+
+  .Abt{
+    display: block;
+    gap: 3%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+  }
+  .Abt-cont{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+  }
+  .mob{
+    display: none;
+  }
+.Abt-cont{
+  margin-bottom: 10%;
+}
+
+  .Cont{
+    display: block;
+  }
+  .Contact h2{
+    text-align: center;
+    padding: 5% 0;
+  }
+
+  .Icn1{
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 10% 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 5%;
+  }
+  .Icn2{
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 10% 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 5%;
+  }
+  .Icn3{
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 10% 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10%;
+  }
+
+
+
+
+}
